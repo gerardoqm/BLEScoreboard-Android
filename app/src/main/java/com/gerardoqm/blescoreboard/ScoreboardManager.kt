@@ -129,6 +129,7 @@ class ScoreboardManager(private val app: Application) : BoardConnection.Listener
         get() = awayScoreState.intValue
         set(v) { val old = awayScoreState.intValue; awayScoreState.intValue = v.coerceIn(0, 99); if (awayScoreState.intValue > old) goalScored(false); syncDataToDisplay() }
 
+    @set:JvmName("assignPeriod")
     var period by mutableIntStateOf(1); private set
     var totalPeriods by mutableIntStateOf(4); private set
     /** 10...120 is the range the firmware accepts. */

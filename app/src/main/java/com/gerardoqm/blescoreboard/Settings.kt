@@ -72,10 +72,13 @@ data class AlertChannels(val audio: Boolean = true, val banner: Boolean = true, 
 /** The Alerts and Sound page's settings, saved on the phone. */
 class AlertSettings(private val prefs: Prefs) {
     /** Master switch for everything spoken or played. */
+    @set:JvmName("assignAudioEnabled")
     var audioEnabled by mutableStateOf(true); private set
     /** The match in an ongoing notification (Android's take on the iOS Live Activity). */
+    @set:JvmName("assignLiveNotificationEnabled")
     var liveNotificationEnabled by mutableStateOf(true); private set
     /** The text-to-speech voice ("" = the best one installed). */
+    @set:JvmName("assignVoiceName")
     var voiceName by mutableStateOf(""); private set
     /** Minutes before the end of a period at which the time left is announced. */
     var timeLeftMinutes by mutableStateOf(setOf(5, 3, 1)); private set
