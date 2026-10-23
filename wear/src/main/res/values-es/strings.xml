@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">LOCAL</string>
+    <string name="away">VISITA</string>
+    <string name="start">INICIAR</string>
+    <string name="pause">PAUSA</string>
+    <string name="reset_values">Reiniciar valores</string>
+    <string name="previous_period">Periodo anterior</string>
+    <string name="next_period">Siguiente periodo</string>
+</resources>

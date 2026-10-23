@@ -1,0 +1,16 @@
+*.iml
+.gradle/
+/local.properties
+.idea/
+.DS_Store
+build/
+/captures
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Firmware bundled into the app by tools/bundle-firmware.sh: it contains the Wi-Fi and update passwords. Never commit it.
+app/src/main/assets/firmware/

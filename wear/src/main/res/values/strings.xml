@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">BLEScoreboard</string>
+    <string name="home">HOME</string>
+    <string name="away">AWAY</string>
+    <string name="start">START</string>
+    <string name="pause">PAUSE</string>
+    <string name="reset_values">Reset values</string>
+    <string name="previous_period">Previous period</string>
+    <string name="next_period">Next period</string>
+</resources>
